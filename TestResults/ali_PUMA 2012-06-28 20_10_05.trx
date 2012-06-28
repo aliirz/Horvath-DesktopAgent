@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="42ccb908-01f2-4d58-b576-01bd68e895af" name="ali@PUMA 2012-06-28 20:10:05" runUser="PUMA\ali" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="1db55c4e-71f7-429e-8e4c-89e063ba7247">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Users\ali\documents\visual studio 2010\Projects\Horvath\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="ali_PUMA 2012-06-28 20_10_05">
+      <DeploymentItem filename="C:\Users\ali\documents\visual studio 2010\Projects\Horvath\Horvath.IntegrationProvider\bin\Debug\Horvath.IntegrationProvider.dll" />
+      <DeploymentItem filename="C:\Users\ali\documents\visual studio 2010\Projects\Horvath\packages\RestSharp.103.1\lib\net4\RestSharp.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-06-28T20:10:05.5776361+05:00" queuing="2012-06-28T20:10:09.2408456+05:00" start="2012-06-28T20:10:09.4268563+05:00" finish="2012-06-28T20:10:15.9932318+05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CheckConnectivityTest" storage="c:\users\ali\documents\visual studio 2010\projects\horvath\horvath.tests\bin\debug\horvath.tests.dll" id="fb217af5-635d-0a95-fe4e-8d70f0999210">
+      <Execution id="ac925960-8445-441a-9d90-b6e23ee9228d" />
+      <TestMethod codeBase="C:/Users/ali/documents/visual studio 2010/Projects/Horvath/Horvath.Tests/bin/Debug/Horvath.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Horvath.Tests.IntegrationProviderTest, Horvath.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckConnectivityTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="fb217af5-635d-0a95-fe4e-8d70f0999210" executionId="ac925960-8445-441a-9d90-b6e23ee9228d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ac925960-8445-441a-9d90-b6e23ee9228d" testId="fb217af5-635d-0a95-fe4e-8d70f0999210" testName="CheckConnectivityTest" computerName="PUMA" duration="00:00:02.5411023" startTime="2012-06-28T20:10:09.5828652+05:00" endTime="2012-06-28T20:10:15.7612186+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ac925960-8445-441a-9d90-b6e23ee9228d">
+      <Output>
+        <StdOut>"Wrong Password Or User Name "</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

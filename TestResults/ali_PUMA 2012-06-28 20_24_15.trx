@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f0bb6738-96a9-4ec7-af1d-ac73179dd020" name="ali@PUMA 2012-06-28 20:24:15" runUser="PUMA\ali" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="1db55c4e-71f7-429e-8e4c-89e063ba7247">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Users\ali\documents\visual studio 2010\Projects\Horvath\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="ali_PUMA 2012-06-28 20_24_15">
+      <DeploymentItem filename="C:\Users\ali\documents\visual studio 2010\Projects\Horvath\Horvath.IntegrationProvider\bin\Debug\Horvath.IntegrationProvider.dll" />
+      <DeploymentItem filename="C:\Users\ali\documents\visual studio 2010\Projects\Horvath\packages\RestSharp.103.1\lib\net4\RestSharp.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-06-28T20:24:15.6722587+05:00" queuing="2012-06-28T20:24:18.3714131+05:00" start="2012-06-28T20:24:18.5764248+05:00" finish="2012-06-28T20:26:52.1712100+05:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="PUMA" outcome="Error" timestamp="2012-06-28T20:26:52.0872052+05:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CheckConnectivityTest" storage="c:\users\ali\documents\visual studio 2010\projects\horvath\horvath.tests\bin\debug\horvath.tests.dll" id="fb217af5-635d-0a95-fe4e-8d70f0999210">
+      <Execution id="19f51461-ad89-447c-af8f-546e9dcee2ce" />
+      <TestMethod codeBase="C:/Users/ali/documents/visual studio 2010/Projects/Horvath/Horvath.Tests/bin/Debug/Horvath.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Horvath.Tests.IntegrationProviderTest, Horvath.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckConnectivityTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="fb217af5-635d-0a95-fe4e-8d70f0999210" executionId="19f51461-ad89-447c-af8f-546e9dcee2ce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="19f51461-ad89-447c-af8f-546e9dcee2ce" testId="fb217af5-635d-0a95-fe4e-8d70f0999210" testName="CheckConnectivityTest" computerName="PUMA" duration="00:02:33.4427765" startTime="2012-06-28T20:24:18.7284335+05:00" endTime="2012-06-28T20:26:52.1712100+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="19f51461-ad89-447c-af8f-546e9dcee2ce">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c7be7e13-9f7d-4584-9129-477a06647216" name="ali@PUMA 2012-06-28 20:20:06" runUser="PUMA\ali" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="1db55c4e-71f7-429e-8e4c-89e063ba7247">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="ali_PUMA 2012-06-28 20_20_06">
+      <DeploymentItem filename="C:\Users\ali\documents\visual studio 2010\Projects\Horvath\Horvath.IntegrationProvider\bin\Debug\Horvath.IntegrationProvider.dll" />
+      <DeploymentItem filename="C:\Users\ali\documents\visual studio 2010\Projects\Horvath\packages\RestSharp.103.1\lib\net4\RestSharp.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-06-28T20:20:06.0209795+05:00" queuing="2012-06-28T20:20:06.5460095+05:00" start="2012-06-28T20:20:06.6940180+05:00" finish="2012-06-28T20:20:09.7051902+05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CheckConnectivityTest" storage="c:\users\ali\documents\visual studio 2010\projects\horvath\horvath.tests\bin\debug\horvath.tests.dll" id="fb217af5-635d-0a95-fe4e-8d70f0999210">
+      <Execution id="3028dd6d-8e12-449b-8166-5850478e633a" />
+      <TestMethod codeBase="C:/Users/ali/documents/visual studio 2010/Projects/Horvath/Horvath.Tests/bin/Debug/Horvath.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Horvath.Tests.IntegrationProviderTest, Horvath.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckConnectivityTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="fb217af5-635d-0a95-fe4e-8d70f0999210" executionId="3028dd6d-8e12-449b-8166-5850478e633a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="3028dd6d-8e12-449b-8166-5850478e633a" testId="fb217af5-635d-0a95-fe4e-8d70f0999210" testName="CheckConnectivityTest" computerName="PUMA" duration="00:00:02.1605408" startTime="2012-06-28T20:20:06.8940294+05:00" endTime="2012-06-28T20:20:09.5941839+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3028dd6d-8e12-449b-8166-5850478e633a">
+      <Output>
+        <StdOut>An error has occurred: {"code":"ECONNRESET"}</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
