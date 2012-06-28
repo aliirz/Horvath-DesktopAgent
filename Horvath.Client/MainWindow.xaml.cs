@@ -24,5 +24,20 @@ namespace Horvath.Client
         {
             InitializeComponent();
         }
+
+        private void ToggleSwitch_Click(object sender, RoutedEventArgs e)
+        {
+            ToggleSwitch tg = (ToggleSwitch)sender;
+            if ((bool)tg.IsChecked)
+            {
+                codeBox.IsEnabled = false;
+                progressRing.IsActive = true;
+            }
+            else
+            {
+                codeBox.IsEnabled = true;
+                progressRing.IsActive = false;
+            }
+        }
     }
 }

@@ -13,19 +13,23 @@ namespace Horvath
         public IntegrationProvider(string url)
         {
             this._client = new RestClient(url);
-            this._client.Authenticator = new HttpBasicAuthenticator("yawar", "shah");
+            //this._client.Authenticator = new HttpBasicAuthenticator("yawar", "shah");
         }
 
         public bool CheckConnectivity()
         {
             bool connected = true;
             try
-            {   
-        
-                var request = new RestRequest("authenticate", Method.POST);
-                request.Parameters.Add(new Parameter { Name = "username", Value = "yawar" });
-                request.Parameters.Add(new Parameter { Name = "password", Value = "shah" });
-                
+            {
+
+                var request = new RestRequest("query", Method.POST);
+                request.RequestFormat = DataFormat.Json;
+                //request.RequestBody
+
+                request.AddBody(new { txtQuery = "f2a0341b3" });
+
+
+
 
                 var response = this._client.Execute(request);
 

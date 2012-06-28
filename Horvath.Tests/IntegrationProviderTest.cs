@@ -70,7 +70,7 @@ namespace Horvath.Tests
         [TestMethod()]
         public void CheckConnectivityTest()
         {
-            string url = "http://192.168.100.108:3000"; // TODO: Initialize to an appropriate value
+            string url = "http://merlinserver.jit.su"; // TODO: Initialize to an appropriate value
             IntegrationProvider target = new IntegrationProvider(url); // TODO: Initialize to an appropriate value
             bool expected = true; // TODO: Initialize to an appropriate value
             bool actual;

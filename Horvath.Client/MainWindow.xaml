@@ -2,32 +2,21 @@
         xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="525">
+        Title="Horvath" Height="295" Width="500" ShowTitleBar="True" ShowIconOnTitleBar="True" ResizeMode="NoResize">
     <Window.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Colours.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
-                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Red.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Blue.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/BaseLight.xaml" />
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Window.Resources>
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="59*" />
-            <RowDefinition Height="200*" />
-        </Grid.RowDefinitions>
-        <Label Content="Merlin's IP Address" Grid.Row="0" Grid.Column="0"/>
-        <TextBox Name="merlinIPTextBox" Grid.Row="0" Grid.Column="1"/>
-        <Label Content="Your Unique Code" Grid.Row="1" Grid.Column="0"/>
-        <TextBox Name="codeTextBox" Grid.Row="1" Grid.Column="1"/>
+        <PasswordBox Controls:TextboxHelper.Watermark="Code" Height="35" HorizontalAlignment="Left" Margin="77,26,0,0" Name="codeBox" VerticalAlignment="Top" Width="315" FontSize="18" />
+        <Controls:ToggleSwitch Header="Server Connection" IsChecked="False" Margin="76,97,87,26" Click="ToggleSwitch_Click" />
+        <Controls:ProgressRing Name="progressRing" IsActive="False" Margin="209,162,209,15" />
     </Grid>
 </Controls:MetroWindow>
