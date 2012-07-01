@@ -83,14 +83,14 @@ namespace Horvath.Client
                         Console.WriteLine("Locked Computer now changing timer");
                         //_timer.Change(System.Threading.Timeout.Infinite, 5000);
                         break;
-                    case "mail":
-                        ops.SendMail(null, null, null, null);
+                    case "send mailjohn\n":
+                        ops.SendMail(null, null, null, command.file);
                         _provider.SendConfirmation(command.id, true);
                         Console.WriteLine("Mail Sent now changing timer");
                         //_timer.Change(System.Threading.Timeout.Infinite, 5000);
                         break;
                     default:
-                       Console.WriteLine("Invalid Command Saeen! :{)");
+                        Console.WriteLine("Invalid Command Saeen! :{)");
                         break;
                 }
             }
