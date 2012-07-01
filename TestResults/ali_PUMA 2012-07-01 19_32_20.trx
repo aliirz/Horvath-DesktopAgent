@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="df6a3ae1-b58e-475f-8b60-5ed50ad3d06b" name="ali@PUMA 2012-07-01 19:32:20" runUser="PUMA\ali" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="1db55c4e-71f7-429e-8e4c-89e063ba7247">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="ali_PUMA 2012-07-01 19_32_20">
+      <DeploymentItem filename="C:\Users\ali\documents\visual studio 2010\Projects\Horvath\packages\RestSharp.103.1\lib\net4\RestSharp.dll" />
+      <DeploymentItem filename="C:\Users\ali\documents\visual studio 2010\Projects\Horvath\Horvath.IntegrationProvider\bin\Debug\Horvath.IntegrationProvider.dll" />
+      <DeploymentItem filename="C:\Users\ali\documents\visual studio 2010\Projects\Horvath\Horvath.JSON\bin\Debug\Horvath.JSON.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-07-01T19:32:20.9925998+05:00" queuing="2012-07-01T19:32:23.6377511+05:00" start="2012-07-01T19:32:23.8567636+05:00" finish="2012-07-01T19:32:28.2630156+05:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="3" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="2" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="PUMA" outcome="Error" timestamp="2012-07-01T19:32:28.2600154+05:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\users\ali\documents\visual studio 2010\projects\horvath\horvath.tests\bin\debug\horvath.tests.dll" id="efb639f1-240f-a1a0-ccdc-e786f889702a">
+      <Execution id="455fdcf1-0e0c-472e-b2e4-82b986bf3db0" />
+      <TestMethod codeBase="C:/Users/ali/documents/visual studio 2010/Projects/Horvath/Horvath.Tests/bin/Debug/Horvath.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Horvath.Tests.UnitTest1, Horvath.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="CheckConnectivityTest" storage="c:\users\ali\documents\visual studio 2010\projects\horvath\horvath.tests\bin\debug\horvath.tests.dll" id="fb217af5-635d-0a95-fe4e-8d70f0999210">
+      <Execution id="ee8aff42-73c1-42f1-8951-f2883c560a6c" />
+      <TestMethod codeBase="C:/Users/ali/documents/visual studio 2010/Projects/Horvath/Horvath.Tests/bin/Debug/Horvath.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Horvath.Tests.IntegrationProviderTest, Horvath.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckConnectivityTest" />
+    </UnitTest>
+    <UnitTest name="GetCommandTest" storage="c:\users\ali\documents\visual studio 2010\projects\horvath\horvath.tests\bin\debug\horvath.tests.dll" id="e40179c8-8326-d564-636f-a9bb7873756b">
+      <Execution id="36fd7a43-9e5f-454c-8b1a-1de0d09dd4a7" />
+      <TestMethod codeBase="C:/Users/ali/documents/visual studio 2010/Projects/Horvath/Horvath.Tests/bin/Debug/Horvath.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Horvath.Tests.IntegrationProviderTest, Horvath.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetCommandTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="e40179c8-8326-d564-636f-a9bb7873756b" executionId="36fd7a43-9e5f-454c-8b1a-1de0d09dd4a7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="efb639f1-240f-a1a0-ccdc-e786f889702a" executionId="455fdcf1-0e0c-472e-b2e4-82b986bf3db0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fb217af5-635d-0a95-fe4e-8d70f0999210" executionId="ee8aff42-73c1-42f1-8951-f2883c560a6c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="36fd7a43-9e5f-454c-8b1a-1de0d09dd4a7" testId="e40179c8-8326-d564-636f-a9bb7873756b" testName="GetCommandTest" computerName="PUMA" duration="00:00:04.2372424" startTime="2012-07-01T19:32:24.0257732+05:00" endTime="2012-07-01T19:32:28.2630156+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="36fd7a43-9e5f-454c-8b1a-1de0d09dd4a7">
+    </UnitTestResult>
+    <UnitTestResult executionId="455fdcf1-0e0c-472e-b2e4-82b986bf3db0" testId="efb639f1-240f-a1a0-ccdc-e786f889702a" testName="TestMethod1" computerName="PUMA" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="455fdcf1-0e0c-472e-b2e4-82b986bf3db0">
+    </UnitTestResult>
+    <UnitTestResult executionId="ee8aff42-73c1-42f1-8951-f2883c560a6c" testId="fb217af5-635d-0a95-fe4e-8d70f0999210" testName="CheckConnectivityTest" computerName="PUMA" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ee8aff42-73c1-42f1-8951-f2883c560a6c">
+    </UnitTestResult>
+  </Results>
+</TestRun>

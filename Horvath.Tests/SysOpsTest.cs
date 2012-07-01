@@ -1,18 +1,17 @@
-﻿using Horvath;
+﻿using Horvath.Client;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using Horvath.Client;
 
 namespace Horvath.Tests
 {
     
     
     /// <summary>
-    ///This is a test class for IntegrationProviderTest and is intended
-    ///to contain all IntegrationProviderTest Unit Tests
+    ///This is a test class for SysOpsTest and is intended
+    ///to contain all SysOpsTest Unit Tests
     ///</summary>
     [TestClass()]
-    public class IntegrationProviderTest
+    public class SysOpsTest
     {
 
 
@@ -66,36 +65,18 @@ namespace Horvath.Tests
 
 
         /// <summary>
-        ///A test for CheckConnectivity
+        ///A test for SendMail
         ///</summary>
         [TestMethod()]
-        public void CheckConnectivityTest()
+        public void SendMailTest()
         {
-            string url = "http://192.168.2.51:3000"; // TODO: Initialize to an appropriate value
-            IntegrationProvider target = new IntegrationProvider(url, "1288383983"); // TODO: Initialize to an appropriate value
-            bool expected = true; // TODO: Initialize to an appropriate value
-            bool actual;
-            actual = target.CheckConnectivity();
-            Assert.AreEqual(expected, actual);
-           // Assert.Inconclusive("Verify the correctness of this test method.");
-        }
-
-        /// <summary>
-        ///A test for GetCommand
-        ///</summary>
-        [TestMethod()]
-        public void GetCommandTest()
-        {
-            string url = string.Empty; // TODO: Initialize to an appropriate value
-            IntegrationProvider target = new IntegrationProvider("http://merlinserver.jit.su","38384"); // TODO: Initialize to an appropriate value
-            Command expected = null; // TODO: Initialize to an appropriate value
-            Command actual;
-            actual = target.GetCommand();
-
-            Console.WriteLine(actual.ToString());
-
-            Assert.AreEqual(expected, actual);
-            //Assert.Inconclusive("Verify the correctness of this test method.");
+            SysOps target = new SysOps(); // TODO: Initialize to an appropriate value
+            string to = string.Empty; // TODO: Initialize to an appropriate value
+            string subj = string.Empty; // TODO: Initialize to an appropriate value
+            string msg = string.Empty; // TODO: Initialize to an appropriate value
+            string fileName = string.Empty; // TODO: Initialize to an appropriate value
+            target.SendMail(to, subj, msg, fileName);
+            //Assert.Inconclusive("A method that does not return a value cannot be verified.");
         }
     }
 }

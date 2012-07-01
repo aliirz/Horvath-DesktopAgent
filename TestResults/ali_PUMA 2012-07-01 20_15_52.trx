@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="90e717e8-2a9a-4c96-9cba-67b0264c45f8" name="ali@PUMA 2012-07-01 20:15:52" runUser="PUMA\ali" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="1db55c4e-71f7-429e-8e4c-89e063ba7247">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="ali_PUMA 2012-07-01 20_15_52">
+      <DeploymentItem filename="C:\Users\ali\documents\visual studio 2010\Projects\Horvath\Horvath.Client\bin\Debug\Horvath.Client.exe" />
+      <DeploymentItem filename="C:\Users\ali\documents\visual studio 2010\Projects\Horvath\packages\MahApps.Metro.0.8.0.0\lib\net40\MahApps.Metro.dll" />
+      <DeploymentItem filename="C:\Users\ali\documents\visual studio 2010\Projects\Horvath\Horvath.JSON\bin\Debug\Horvath.JSON.dll" />
+      <DeploymentItem filename="C:\Users\ali\documents\visual studio 2010\Projects\Horvath\Horvath.IntegrationProvider\bin\Debug\Horvath.IntegrationProvider.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\.NETFramework\v4.0\Libraries\System.Windows.Interactivity.dll" />
+      <DeploymentItem filename="C:\Users\ali\documents\visual studio 2010\Projects\Horvath\packages\RestSharp.103.1\lib\net4\RestSharp.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-07-01T20:15:52.8099872+05:00" queuing="2012-07-01T20:16:00.8224455+05:00" start="2012-07-01T20:16:01.0974612+05:00" finish="2012-07-01T20:16:03.4435954+05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SendMailTest" storage="c:\users\ali\documents\visual studio 2010\projects\horvath\horvath.tests\bin\debug\horvath.tests.dll" id="129f8958-a0e0-f604-9b30-60f3651f3cbf">
+      <Execution id="3c579a65-2a5c-40a9-b453-53576e75d9ff" />
+      <TestMethod codeBase="C:/Users/ali/documents/visual studio 2010/Projects/Horvath/Horvath.Tests/bin/Debug/Horvath.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Horvath.Tests.SysOpsTest, Horvath.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SendMailTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="129f8958-a0e0-f604-9b30-60f3651f3cbf" executionId="3c579a65-2a5c-40a9-b453-53576e75d9ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="3c579a65-2a5c-40a9-b453-53576e75d9ff" testId="129f8958-a0e0-f604-9b30-60f3651f3cbf" testName="SendMailTest" computerName="PUMA" duration="00:00:00.2715953" startTime="2012-07-01T20:16:01.2404694+05:00" endTime="2012-07-01T20:16:03.3385894+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3c579a65-2a5c-40a9-b453-53576e75d9ff">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Horvath.Tests.SysOpsTest.SendMailTest threw exception: 
+System.TypeLoadException: Could not load type 'Horvath.Client.SysOps' from assembly 'Horvath.Client, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' because the method 'ExitWindowsEx' has no implementation (no RVA).</Message>
+          <StackTrace>    at Horvath.Tests.SysOpsTest.SendMailTest()
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="34ef7ece-d7d5-4b49-a985-6ead950d95e1" name="ali@PUMA 2012-07-01 18:26:08" runUser="PUMA\ali" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="1db55c4e-71f7-429e-8e4c-89e063ba7247">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Users\ali\documents\visual studio 2010\Projects\Horvath\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="ali_PUMA 2012-07-01 18_26_08">
+      <DeploymentItem filename="C:\Users\ali\documents\visual studio 2010\Projects\Horvath\packages\RestSharp.103.1\lib\net4\RestSharp.dll" />
+      <DeploymentItem filename="C:\Users\ali\documents\visual studio 2010\Projects\Horvath\Horvath.IntegrationProvider\bin\Debug\Horvath.IntegrationProvider.dll" />
+      <DeploymentItem filename="C:\Users\ali\documents\visual studio 2010\Projects\Horvath\Horvath.JSON\bin\Debug\Horvath.JSON.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-07-01T18:26:08.7764020+05:00" queuing="2012-07-01T18:26:08.8314051+05:00" start="2012-07-01T18:26:08.8554065+05:00" finish="2012-07-01T18:26:11.7425716+05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetCommandTest" storage="c:\users\ali\documents\visual studio 2010\projects\horvath\horvath.tests\bin\debug\horvath.tests.dll" id="e40179c8-8326-d564-636f-a9bb7873756b">
+      <Execution id="08a8e8b0-b4aa-4258-9357-b6a36ec0c3d5" />
+      <TestMethod codeBase="C:/Users/ali/documents/visual studio 2010/Projects/Horvath/Horvath.Tests/bin/Debug/Horvath.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Horvath.Tests.IntegrationProviderTest, Horvath.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetCommandTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="e40179c8-8326-d564-636f-a9bb7873756b" executionId="08a8e8b0-b4aa-4258-9357-b6a36ec0c3d5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="08a8e8b0-b4aa-4258-9357-b6a36ec0c3d5" testId="e40179c8-8326-d564-636f-a9bb7873756b" testName="GetCommandTest" computerName="PUMA" duration="00:00:02.4878444" startTime="2012-07-01T18:26:08.8864083+05:00" endTime="2012-07-01T18:26:11.7215704+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="08a8e8b0-b4aa-4258-9357-b6a36ec0c3d5">
+      <Output>
+        <StdOut>Unable to cast object of type 'RestSharp.RestResponse`1[Horvath.Client.Command]' to type 'Horvath.Client.Command'.Horvath.Client.Command</StdOut>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;(null)&gt;. Actual:&lt;Horvath.Client.Command&gt;. </Message>
+          <StackTrace>   at Horvath.Tests.IntegrationProviderTest.GetCommandTest() in C:\Users\ali\documents\visual studio 2010\Projects\Horvath\Horvath.Tests\IntegrationProviderTest.cs:line 97
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
